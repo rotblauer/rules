@@ -3,25 +3,30 @@
 //Sauce has morphed
 //http://jsfiddle.net/tchatel/H2y5r/
 angular.module('starter')
-  .controller('CAutotCtrl', function ($scope, $timeout, CellBoardFactory, TGOLFactory) {
+  .controller('CAutotCtrl', function ($scope, $timeout,$window, CellBoardFactory, TGOLFactory) {
 
     //http://codepen.io/d_panayotov/pen/jwJGF
     $scope.liney = function () {
+      $scope.type ="Liny";
+
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initLiny(tGOL.height, tGOL.width, true, false);
     };
 
     $scope.crossy = function () {
+      $scope.type ="crossy";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initCrossy(tGOL.height, tGOL.width, true, false);
     };
 
     $scope.randy = function () {
+      $scope.type ="randy";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initRandy(tGOL.height, tGOL.width, .15, true, false);
     };
 
     $scope.randrandy = function () {
+      $scope.type ="randRandy";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initRandy(tGOL.height, tGOL.width, .15, true, false);
       tGOL.niceParam = .0001;
@@ -29,26 +34,31 @@ angular.module('starter')
     };
 
     $scope.randLiny = function () {
+      $scope.type ="randLiny";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initLiny(tGOL.height, tGOL.width, true, false);
       tGOL.niceParam = .0001;
     };
 
     $scope.circys = function () {
+      $scope.type ="circys";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initCircys(tGOL.board, tGOL.height, tGOL.width, true, false, Math.min(tGOL.height, tGOL.width, 25), 1, true);
     };
 
     $scope.circysCrossy = function () {
+      $scope.type ="circysCrossy";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initCircysCrossy(tGOL.board, tGOL.height, tGOL.width, true, false, Math.min(tGOL.height, tGOL.width, 25), 1);
     };
 
     $scope.siny = function () {
+      $scope.type ="siny";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initSiny(tGOL.board, tGOL.height, tGOL.width, true, false, (1 / 15), true);
     };
     $scope.rsiny = function () {
+      $scope.type ="rsiny";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initSiny(tGOL.board, tGOL.height, tGOL.width, true, false, Math.random() * 1000, true);
     };
@@ -120,7 +130,12 @@ angular.module('starter')
     }
 
     function initInit() {
-      tGOL = CellBoardFactory.getParams(701, 701, 1, 0)
+
+      $scope.canvas = document.getElementById('board');
+      $window.innerHeight
+      var square =Math.min($window.innerHeight,  $window.innerWidth)-100;
+      square =square+square%2 +1;
+      tGOL = CellBoardFactory.getParams(square, square, 1, 0)
       tGOL.niceParam = 0;//random live and no die
       //line chart labels
       tGOL.bufferLabels = [];
@@ -130,8 +145,6 @@ angular.module('starter')
         [],
         []
       ];
-
-      $scope.canvas = document.getElementById('board');
 
       $scope.canvas.width = tGOL.width * (tGOL.size + 2 * tGOL.gap);
       $scope.canvas.height = tGOL.height * (tGOL.size + 2 * tGOL.gap);
@@ -171,7 +184,8 @@ angular.module('starter')
     $scope.clocky = 350;
 
     var tGOL =new Object();
-    $scope.siny();
+    $scope.type ="Siny";
+    $scope.randy();
 
     var clockIt = function () {
       var start = new Date().getTime();

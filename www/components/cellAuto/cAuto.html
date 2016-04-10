@@ -7,10 +7,12 @@
      border: 1px solid red;
    }*/
 </style>
+<ion-view view-title="Game of Life - {{type}}">
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col col-center">
 
+    <button on-touch="liney()" class="button">sdaf</button>
     <button class="btn btn-sm btn-default" ng-click="liney()">Liny</button>
     <button class="btn btn-sm btn-default" ng-click="crossy()">Crossy</button>
     <button class="btn btn-sm btn-default" ng-click="randy()">Randy</button>
@@ -27,55 +29,57 @@
 
 </div>
 
-<div class="row text-center">
+<!--<div class="row">-->
 
+  <!--<div class="col text-center">-->
 
-  <h1>The Game of Life</h1>
-  <p class="text-muted">Watch 'em live</p>
+    <!--<h1>The Game of Life</h1>-->
+    <!--<p class="text-muted">Watch 'em live</p>-->
+  <!--</div>-->
+<!--</div>-->
 
-</div>
-
-<div class="row text-center">
+<!--<div class="row">-->
+  <div class="col text-center">
 
   <canvas id="board"></canvas>
-
-</div>
+  </div>
+<!--</div>-->
 
 <div class="row">
 
-  <h1 class="google-blue" style="float:right; z-index:100; font-size: 8vw; margin-right: 100px;">
+  <h1 class="text-muted">
     {{ countable }}
   </h1>
 
-  <div class="col-md-3">
 
-    <canvas id="doughnut2" class="chart chart-doughnut"
-            chart-data="piData" chart-labels="series" chart-colours="colors" chart-legend="true">
-    </canvas>
-
-  </div>
 </div>
 
-<div class="row text-center">
-  <div class="fat-head">
-    <h1 class="google-blue">See the previous life-cycles</h1>
-    <p class="text-muted">The plot below shows snapshots of every life-cycle so far...and will update every {{
-      generationPlot }} life-cycles </p>
+<!--<div class="row text-center">-->
+  <!--<div class="fat-head">-->
+    <!--<h1 class="google-blue">See the previous life-cycles</h1>-->
+    <!--<p class="text-muted">The plot below shows snapshots of every life-cycle so far...and will update every {{-->
+      <!--generationPlot }} life-cycles </p>-->
 
-  </div>
-</div>
-<div class="row">
-  <div class="fat-head">
-    <canvas id="line" class="chart chart-line" chart-data="data"
-            chart-labels="labels" chart-legend="true" chart-series="series"
-            chart-click="onClick" chart-colours="colors">
-    </canvas>
-  </div>
-</div>
+  <!--</div>-->
+<!--</div>-->
+<!--<div class="row">-->
+  <!--<div class="fat-head">-->
+    <!--<canvas id="line" class="chart chart-line" chart-data="data"-->
+            <!--chart-labels="labels" chart-legend="true" chart-series="series"-->
+            <!--chart-click="onClick" chart-colours="colors">-->
+    <!--</canvas>-->
+  <!--</div>-->
+<!--</div>-->
 <p class="text-muted">Generation Time = {{clocky}} ms</p>
 
+</ion-view>
 
+<!--<div class="col-md-3">-->
 
+  <!--<canvas id="doughnut2" class="chart chart-doughnut"-->
+          <!--chart-data="piData" chart-labels="series" chart-colours="colors" chart-legend="true">-->
+  <!--</canvas>-->
 
+<!--</div>-->
 
 
