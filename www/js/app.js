@@ -68,13 +68,21 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       }
     })
-
+    .state('tab.gol', {
+      url: '/gol',
+      views: {
+        'tab-gol': {
+          templateUrl: 'components/cellAuto/cAuto.html',
+          controller: 'CAutotCtrl'
+        }
+      }
+    })
   .state('tab.about', {
     url: '/about',
     views: {
       'tab-about': {
         templateUrl: 'templates/about.html',
-        controller: 'AccountCtrl'
+        controller: 'AboutCtrl'
       }
     }
   });
