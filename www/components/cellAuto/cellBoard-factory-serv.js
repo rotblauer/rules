@@ -196,6 +196,10 @@ angular.module('starter')
 
     }
 
+
+
+
+
     function getParams(height, width, size, gap) {
       var boardParams = new Object();
       //cell number high

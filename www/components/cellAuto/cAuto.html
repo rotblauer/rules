@@ -10,87 +10,14 @@
 
 <ion-view view-title="Game of Life - {{type}} ({{countable}})">
   <ion-content class="padding">
-
-<!--<ion-list>-->
-  <!--<ion-item>-->
-    <!--I love kittens!-->
-    <!--<ion-option-button class="button-positive">Share</ion-option-button>-->
-    <!--<ion-option-button class="button-assertive">Edit</ion-option-button>-->
-  <!--</ion-item>-->
-<!--</ion-list>-->
-<div class="row">
-  <!--<div class="col col-center">-->
-    <div ng-repeat='maker in displays.makers'>
-    <button class="btn btn-sm btn-default" ng-click="maker.func">{{maker.name}}</button>
+    <div class="row">
+      <!--<div class="col col-center">-->
+      <div ng-repeat='maker in displays.makers'>
+        <!--<button class="btn btn-sm btn-default" ng-click=maker.getFunc()>{{maker.name}}</button>-->
+      </div>
     </div>
-
-    <!--<button class="btn btn-sm btn-default" ng-click="liney()">Liny</button>-->
-    <!--<button class="btn btn-sm btn-default" ng-click="crossy()">Crossy</button>-->
-    <!--<button class="btn btn-sm btn-default" ng-click="randy()">Randy</button>-->
-    <!--<button class="btn btn-sm btn-default" ng-click="randrandy()">RRandy</button>-->
-    <!--<button class="btn btn-sm btn-default" ng-click="randLiny()">RLiny</button>-->
-    <!--<button class="btn btn-sm btn-default" ng-click="gunny()">Gunny</button>-->
-    <!--<button class="btn btn-sm btn-default" ng-click="circys()">Circys</button>-->
-    <!--<button class="btn btn-sm btn-default" ng-click="circysCrossy()">CCircys</button>-->
-    <!--<button class="btn btn-sm btn-default" ng-click="siny()">Siny</button>-->
-    <!--<button class="btn btn-sm btn-default" ng-click="rsiny()">RSiny</button>-->
-
-  <!--</div>-->
-
-
-</div>
-
-<!--<div class="row">-->
-
-  <!--<div class="col text-center">-->
-
-    <!--<h1>The Game of Life</h1>-->
-    <!--<p class="text-muted">Watch 'em live</p>-->
-  <!--</div>-->
-<!--</div>-->
-
-<!--<div class="row">-->
-  <div class="col text-center">
-
-  <canvas id="board"></canvas>
-  </div>
-<!--</div>-->
-
-<!--<div class="row">-->
-
-  <!--<h1 class="text-muted">-->
-    <!--{{ countable }}-->
-  <!--</h1>-->
-
-
-<!--</div>-->
-
-<!--<div class="row text-center">-->
-  <!--<div class="fat-head">-->
-    <!--<h1 class="google-blue">See the previous life-cycles</h1>-->
-    <!--<p class="text-muted">The plot below shows snapshots of every life-cycle so far...and will update every {{-->
-      <!--generationPlot }} life-cycles </p>-->
-
-  <!--</div>-->
-<!--</div>-->
-<!--<div class="row">-->
-  <!--<div class="fat-head">-->
-    <!--<canvas id="line" class="chart chart-line" chart-data="data"-->
-            <!--chart-labels="labels" chart-legend="true" chart-series="series"-->
-            <!--chart-click="onClick" chart-colours="colors">-->
-    <!--</canvas>-->
-  <!--</div>-->
-<!--</div>-->
-<!--<p class="text-muted">Generation Time = {{clocky}} ms</p>-->
-</ion-content>
+    <div class="col text-center">
+      <canvas id="board"></canvas>
+    </div>
+  </ion-content>
 </ion-view>
-
-<!--<div class="col-md-3">-->
-
-  <!--<canvas id="doughnut2" class="chart chart-doughnut"-->
-          <!--chart-data="piData" chart-labels="series" chart-colours="colors" chart-legend="true">-->
-  <!--</canvas>-->
-
-<!--</div>-->
-
-

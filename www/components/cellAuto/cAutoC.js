@@ -4,178 +4,136 @@
 //http://jsfiddle.net/tchatel/H2y5r/
 angular.module('starter')
   .controller('CAutotCtrl', function ($scope, $timeout, $window, CellBoardFactory, TGOLFactory) {
-    //http://codepen.io/d_panayotov/pen/jwJGF
-    $scope.liney = function () {
-      $scope.type = "Liny";
 
-      tGOL = initInit();
-      tGOL.board = CellBoardFactory.initLiny(tGOL.height, tGOL.width, true, false);
-    };
-    $scope.crossy = function () {
-      $scope.type = "Crossy";
-      tGOL = initInit();
-      tGOL.board = CellBoardFactory.initCrossy(tGOL.height, tGOL.width, true, false);
-    };
-
-    $scope.randy = function () {
-      $scope.type = "Randy";
-      tGOL = initInit();
-      tGOL.board = CellBoardFactory.initRandy(tGOL.height, tGOL.width, .15, true, false);
-    };
-
-    $scope.randrandy = function () {
-      $scope.type = "RandRandy";
-      tGOL = initInit();
-      tGOL.board = CellBoardFactory.initRandy(tGOL.height, tGOL.width, .15, true, false);
-      tGOL.niceParam = .0001;
-
-    };
-
-    $scope.randLiny = function () {
-      $scope.type = "RandLiny";
-      tGOL = initInit();
-      tGOL.board = CellBoardFactory.initLiny(tGOL.height, tGOL.width, true, false);
-      tGOL.niceParam = .0001;
-    };
-
-    $scope.circys = function () {
-      $scope.type = "Circys";
-      tGOL = initInit();
-      tGOL.board = CellBoardFactory.initCircys(tGOL.board, tGOL.height, tGOL.width, true, false, Math.min(tGOL.height, tGOL.width, 25), 1, true);
-    };
-
-    $scope.circysCrossy = function () {
-      $scope.type = "CircysCrossy";
-      tGOL = initInit();
-      tGOL.board = CellBoardFactory.initCircysCrossy(tGOL.board, tGOL.height, tGOL.width, true, false, Math.min(tGOL.height, tGOL.width, 25), 1);
-    };
-
-    $scope.siny = function () {
-      $scope.type = "Siny";
-      tGOL = initInit();
-      tGOL.board = CellBoardFactory.initSiny(tGOL.board, tGOL.height, tGOL.width, true, false, (1 / 15), true);
-    };
-    $scope.rsiny = function () {
-      $scope.type = "Rsiny";
-      tGOL = initInit();
-      tGOL.board = CellBoardFactory.initSiny(tGOL.board, tGOL.height, tGOL.width, true, false, Math.random() * 1000, true);
-    };
-
-
-    $scope.gunny = function () {
-      $scope.type = "Gunny";
-
-      tGOL = initInit();
-      tGOL.board = CellBoardFactory.initAllBlank(tGOL.height, tGOL.width, false);
-
-
-      //https://github.com/jeffomatic/life/blob/master/patterns.py with some salt
-      CellBoardFactory.initGun(tGOL.board, 0, Math.round(tGOL.height / 2), true);
-      CellBoardFactory.initGun(tGOL.board, Math.round(tGOL.width / 3), Math.round(tGOL.height / 2), true);
-      CellBoardFactory.initGun(tGOL.board, 2 * Math.round(tGOL.width / 3), Math.round(tGOL.height / 2), true);
-
-      CellBoardFactory.initGun(tGOL.board, 0, Math.round(tGOL.height / 2), true);
-      CellBoardFactory.initGun(tGOL.board, Math.round(tGOL.width / 4), Math.round(tGOL.height / 3), true);
-      CellBoardFactory.initGun(tGOL.board, 3 * Math.round(tGOL.width / 4), Math.round(tGOL.height / 3), true);
-
-      var flipper = CellBoardFactory.initAllBlank(tGOL.height, tGOL.width, false);
-      for (var h = 0; h < tGOL.height; h++) {
-        for (var w = 0; w < tGOL.width; w++) {
-          flipper[h][w] = tGOL.board[w][h];
+    $scope.displays = {
+      makers: [{
+        name: 'Liny',
+        getFunc: function () {
+          $scope.type = "Liny";
+          tGOL = initInit();
+          tGOL.board = CellBoardFactory.initLiny(tGOL.height, tGOL.width, true, false);
         }
-      }
-      tGOL.board = flipper;
-    };
+      }, {
+        name: 'Crossy',
+        getFunc: function () {
+          $scope.type = "Crossy";
+          tGOL = initInit();
+          tGOL.board = CellBoardFactory.initCrossy(tGOL.height, tGOL.width, true, false);
+        }
+      }, {
+        name: 'Randy',
+        getFunc: function () {
+          $scope.type = "Randy";
+          tGOL = initInit();
+          tGOL.board = CellBoardFactory.initRandy(tGOL.height, tGOL.width, .15, true, false);
+        }
+      }, {
+        name: 'RandRandy',
+        getFunc: function () {
+          $scope.type = "RandRandy";
+          tGOL = initInit();
+          tGOL.board = CellBoardFactory.initRandy(tGOL.height, tGOL.width, .15, true, false);
+          tGOL.niceParam = .0001;
+        }
+      }, {
+        name: 'RandLiny',
+        getFunc: function () {
+          $scope.type = "RandLiny";
+          tGOL = initInit();
+          tGOL.board = CellBoardFactory.initLiny(tGOL.height, tGOL.width, true, false);
+          tGOL.niceParam = .0001;
+        }
+      }, {
+        name: 'Circys',
+        getFunc: function () {
+          $scope.type = "Circys";
+          tGOL = initInit();
+          tGOL.board = CellBoardFactory.initCircys(tGOL.board, tGOL.height, tGOL.width, true, false, Math.min(tGOL.height, tGOL.width, 25), 1, true);
+        }
+      }, {
+        name: 'CircysCrossy',
+        getFunc: function () {
+          $scope.type = "CircysCrossy";
+          tGOL = initInit();
+          tGOL.board = CellBoardFactory.initCircysCrossy(tGOL.board, tGOL.height, tGOL.width, true, false, Math.min(tGOL.height, tGOL.width, 25), 1);
 
+        }
+      }, {
+        name: 'Gunny',
+        getFunc: function () {
+          $scope.type = "Gunny";
+
+          tGOL = initInit();
+          tGOL.board = CellBoardFactory.initAllBlank(tGOL.height, tGOL.width, false);
+
+
+          //https://github.com/jeffomatic/life/blob/master/patterns.py with some salt
+          CellBoardFactory.initGun(tGOL.board, 0, Math.round(tGOL.height / 2), true);
+          CellBoardFactory.initGun(tGOL.board, Math.round(tGOL.width / 3), Math.round(tGOL.height / 2), true);
+          CellBoardFactory.initGun(tGOL.board, 2 * Math.round(tGOL.width / 3), Math.round(tGOL.height / 2), true);
+
+          CellBoardFactory.initGun(tGOL.board, 0, Math.round(tGOL.height / 2), true);
+          CellBoardFactory.initGun(tGOL.board, Math.round(tGOL.width / 4), Math.round(tGOL.height / 3), true);
+          CellBoardFactory.initGun(tGOL.board, 3 * Math.round(tGOL.width / 4), Math.round(tGOL.height / 3), true);
+
+          var flipper = CellBoardFactory.initAllBlank(tGOL.height, tGOL.width, false);
+          for (var h = 0; h < tGOL.height; h++) {
+            for (var w = 0; w < tGOL.width; w++) {
+              flipper[h][w] = tGOL.board[w][h];
+            }
+          }
+          tGOL.board = flipper;
+        }
+      }, {
+        name: 'Siny',
+        getFunc: function () {
+          $scope.type = "Siny";
+          tGOL = initInit();
+          tGOL.board = CellBoardFactory.initSiny(tGOL.board, tGOL.height, tGOL.width, true, false, (1 / 15), true);
+        }
+      }, {
+        name: 'Rsiny',
+        getFunc: function () {
+          $scope.type = "Rsiny";
+          tGOL = initInit();
+          tGOL.board = CellBoardFactory.initSiny(tGOL.board, tGOL.height, tGOL.width, true, false, Math.random() * 1000, true);
+
+        }
+      }]
+    };
 
     function nextify() {
       tGOL.board = TGOLFactory.computeNext(tGOL.board, tGOL.niceParam);
-
-      tGOL.bufferLabels.push($scope.countable + "");
-
-      for (i = 0; i < tGOL.bufferData.length; i++) {
-        tGOL.bufferData[i].push(0);
-      }
       for (var i = 0; i < tGOL.board.length; i++) {
         var row = tGOL.board[i];
         for (var j = 0; j < row.length; j++) {
           var cellType = TGOLFactory.getCellType(tGOL.board, i, j, colorOfDeath, colorOfBirth, colorOfLife, colorOfBoring, tGOL.niceParam);
           $scope.context.fillStyle = cellType.color;
-
-          if (cellType.type >= 0) {//its not boring, so count it
-            tGOL.bufferData[cellType.type][tGOL.bufferLabels.length - 1]++;
-          }
           $scope.context.fillRect(tGOL.gap + j * (tGOL.size + 2 * tGOL.gap), tGOL.gap + i * (tGOL.size + 2 * tGOL.gap), tGOL.size, tGOL.size);
         }
-
-
       }
-      // for (var i = 0; i < tGOL.bufferData.length; i++) {
-      //   $scope.piData[i] = tGOL.bufferData[i][tGOL.bufferLabels.length - 1];//update pi chart every cycle since it is quick
-      // }
-      // if ($scope.countable % $scope.generationPlot == 0) {//only update liner every once in a while
-      //
-      //   for (var i = 0; i < tGOL.bufferData.length; i++) {
-      //
-      //     for (var j = 0; j < tGOL.bufferData[i].length; j++) {
-      //       $scope.labels [j] = tGOL.bufferLabels[j];
-      //       $scope.data [i][j] = tGOL.bufferData[i][j];
-      //     }
-      //   }
-      //   if ($scope.countable / $scope.generationPlot > 3) {//can get slow
-      //     $scope.generationPlot = $scope.generationPlot + $scope.generationPlot;
-      //   }
-      // }
       $scope.countable++;
     }
 
     function initInit() {
 
       $scope.canvas = document.getElementById('board');
-      $window.innerHeight
-      var height = $window.innerHeight - 100;
+      var height = $window.innerHeight;
       height = height + height % 2 + 1;
-      var width = $window.innerWidth - 100;
+      var width = $window.innerWidth;
       width = width + width % 2 + 1;
 
 
-      tGOL = CellBoardFactory.getParams(height, width, 1, 0)
+      tGOL = CellBoardFactory.getParams(height, width, 1, 0);
       tGOL.niceParam = 0;//random live and no die
-      //line chart labels
-      tGOL.bufferLabels = [];
-      //counts for each cell type
-      tGOL.bufferData = [
-        [],
-        [],
-        []
-      ];
-
       $scope.canvas.width = tGOL.width * (tGOL.size + 2 * tGOL.gap);
       $scope.canvas.height = tGOL.height * (tGOL.size + 2 * tGOL.gap);
       $scope.context = $scope.canvas.getContext("2d");
       $scope.context.fillStyle = colorOfBoring;
       $scope.context.fillRect(0, 0, $scope.context.width, $scope.context.height);
-
-
       $scope.height = tGOL.height;
       $scope.width = tGOL.width;
-      $scope.generationPlot = 25;
       $scope.countable = 0;
-
-      $scope.labels = [];
-      $scope.series = ['About to Die', 'Born', 'Still Alive'];
-      $scope.data = [
-        [],
-        [],
-        []
-      ];
-      $scope.piData = [0, 0, 0];
-
-      $scope.colors = [colorOfDeath, colorOfBirth, colorOfLife];
-
-      $scope.onClick = function (points, evt) {
-        console.log(points, evt);
-      };
       return tGOL;
 
     }
@@ -188,19 +146,7 @@ angular.module('starter')
     $scope.clocky = 350;
 
     var tGOL = new Object();
-    $scope.type = "Siny";
-    $scope.randy();
-
-    $scope.displays = {
-      makers: [{
-        name: 'Liny',
-        func: $scope.liney()
-      }, {
-        name: 'Liny',
-        func: $scope.liney()
-      }]
-    }
-
+    $scope.displays.makers[$scope.displays.makers.length-1].getFunc();
 
     var clockIt = function () {
       var start = new Date().getTime();
@@ -220,8 +166,3 @@ angular.module('starter')
 
     $timeout(clockIt, $scope.clocky);
   });
-
-
-/**
- * Created by Kitty on 4/10/16.
- */

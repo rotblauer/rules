@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19eb7276-a59b-4592-bd0e-7278403e2f00" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/templates/chat-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/templates/tab-chats.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/templates/tab-dash.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/cellAuto/cAuto.html" afterPath="$PROJECT_DIR$/www/components/cellAuto/cAuto.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/cellAuto/cAutoC.js" afterPath="$PROJECT_DIR$/www/components/cellAuto/cAutoC.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/about.html" afterPath="$PROJECT_DIR$/www/templates/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tabs.html" afterPath="$PROJECT_DIR$/www/templates/tabs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/cellAuto/cellBoard-factory-serv.js" afterPath="$PROJECT_DIR$/www/components/cellAuto/cellBoard-factory-serv.js" />
     </list>
     <ignored path="CellAuto.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="372">
+              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -56,20 +49,18 @@
       <file leaf-file-name="cAutoC.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/components/cellAuto/cAutoC.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="201" column="5" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
-              <folding>
-                <element signature="e#7197#7236#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="-1681">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cAuto.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cAuto.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/components/cellAuto/cAuto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -90,10 +81,10 @@
       <file leaf-file-name="cellBoard-factory-serv.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/components/cellAuto/cellBoard-factory-serv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="198" column="13" selection-start-line="198" selection-start-column="13" selection-end-line="198" selection-end-column="13" />
+            <state relative-caret-position="129">
+              <caret line="205" column="34" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="34" />
               <folding>
-                <element signature="e#7160#7199#0" expanded="false" />
+                <element signature="e#7164#7203#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -130,14 +121,14 @@
         <option value="$PROJECT_DIR$/www/templates/tab-account.html" />
         <option value="$PROJECT_DIR$/www/templates/tab-dash.html" />
         <option value="$PROJECT_DIR$/www/components/cellAuto/tGOL-factory-serv.js" />
-        <option value="$PROJECT_DIR$/www/components/cellAuto/cellBoard-factory-serv.js" />
         <option value="$PROJECT_DIR$/www/js/controllers.js" />
         <option value="$PROJECT_DIR$/www/templates/tabs.html" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/www/templates/about.html" />
-        <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/www/components/cellAuto/cAutoC.js" />
+        <option value="$PROJECT_DIR$/www/components/cellAuto/cellBoard-factory-serv.js" />
         <option value="$PROJECT_DIR$/www/components/cellAuto/cAuto.html" />
+        <option value="$PROJECT_DIR$/www/components/cellAuto/cAutoC.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
       </list>
     </option>
   </component>
@@ -284,6 +275,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="editor.config.accepted" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -344,7 +336,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1460301947697</updated>
-      <workItem from="1460301948794" duration="16158000" />
+      <workItem from="1460301948794" duration="19394000" />
     </task>
     <task id="LOCAL-00001" summary="cauto">
       <created>1460315889880</created>
@@ -360,11 +352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460331340087</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="reow">
+      <created>1460338604578</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1460338604578</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16158000" />
+    <option name="totallyTimeSpent" value="19394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-63" y="42" width="1436" height="763" extended-state="0" />
@@ -396,7 +395,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cauto" />
     <MESSAGE value="cautoh" />
-    <option name="LAST_COMMIT_MESSAGE" value="cautoh" />
+    <MESSAGE value="reow" />
+    <option name="LAST_COMMIT_MESSAGE" value="reow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -440,16 +440,6 @@
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/components/cellAuto/cellBoard-factory-serv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="198" column="13" selection-start-line="198" selection-start-column="13" selection-end-line="198" selection-end-column="13" />
-          <folding>
-            <element signature="e#7160#7199#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,19 +491,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/cellAuto/cellBoard-factory-serv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="205" column="34" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="34" />
+          <folding>
+            <element signature="e#7164#7203#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -529,18 +521,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/components/cellAuto/cAutoC.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="201" column="5" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
-          <folding>
-            <element signature="e#7197#7236#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-1681">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/components/cellAuto/cAuto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
           <folding />
         </state>
       </provider>
