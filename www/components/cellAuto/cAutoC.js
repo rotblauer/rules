@@ -3,8 +3,11 @@
 //Sauce has morphed
 //http://jsfiddle.net/tchatel/H2y5r/
 angular.module('starter')
-  .controller('CAutotCtrl', function ($scope, $timeout, $window, CellBoardFactory, TGOLFactory) {
+  .controller('CAutotCtrl', function ($scope, $timeout, $window,$ionicPopover, CellBoardFactory, TGOLFactory) {
 
+    $scope.openMenu = function () {
+      $ionicSideMenuDelegate.toggleLeft();
+    }
     $scope.displays = {
       makers: [{
         name: 'Liny',
