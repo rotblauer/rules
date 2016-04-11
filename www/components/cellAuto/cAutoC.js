@@ -3,30 +3,28 @@
 //Sauce has morphed
 //http://jsfiddle.net/tchatel/H2y5r/
 angular.module('starter')
-  .controller('CAutotCtrl', function ($scope, $timeout,$window, CellBoardFactory, TGOLFactory) {
-
+  .controller('CAutotCtrl', function ($scope, $timeout, $window, CellBoardFactory, TGOLFactory) {
     //http://codepen.io/d_panayotov/pen/jwJGF
     $scope.liney = function () {
-      $scope.type ="Liny";
+      $scope.type = "Liny";
 
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initLiny(tGOL.height, tGOL.width, true, false);
     };
-
     $scope.crossy = function () {
-      $scope.type ="crossy";
+      $scope.type = "Crossy";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initCrossy(tGOL.height, tGOL.width, true, false);
     };
 
     $scope.randy = function () {
-      $scope.type ="randy";
+      $scope.type = "Randy";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initRandy(tGOL.height, tGOL.width, .15, true, false);
     };
 
     $scope.randrandy = function () {
-      $scope.type ="randRandy";
+      $scope.type = "RandRandy";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initRandy(tGOL.height, tGOL.width, .15, true, false);
       tGOL.niceParam = .0001;
@@ -34,37 +32,39 @@ angular.module('starter')
     };
 
     $scope.randLiny = function () {
-      $scope.type ="randLiny";
+      $scope.type = "RandLiny";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initLiny(tGOL.height, tGOL.width, true, false);
       tGOL.niceParam = .0001;
     };
 
     $scope.circys = function () {
-      $scope.type ="circys";
+      $scope.type = "Circys";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initCircys(tGOL.board, tGOL.height, tGOL.width, true, false, Math.min(tGOL.height, tGOL.width, 25), 1, true);
     };
 
     $scope.circysCrossy = function () {
-      $scope.type ="circysCrossy";
+      $scope.type = "CircysCrossy";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initCircysCrossy(tGOL.board, tGOL.height, tGOL.width, true, false, Math.min(tGOL.height, tGOL.width, 25), 1);
     };
 
     $scope.siny = function () {
-      $scope.type ="siny";
+      $scope.type = "Siny";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initSiny(tGOL.board, tGOL.height, tGOL.width, true, false, (1 / 15), true);
     };
     $scope.rsiny = function () {
-      $scope.type ="rsiny";
+      $scope.type = "Rsiny";
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initSiny(tGOL.board, tGOL.height, tGOL.width, true, false, Math.random() * 1000, true);
     };
 
 
     $scope.gunny = function () {
+      $scope.type = "Gunny";
+
       tGOL = initInit();
       tGOL.board = CellBoardFactory.initAllBlank(tGOL.height, tGOL.width, false);
 
@@ -110,22 +110,22 @@ angular.module('starter')
 
 
       }
-      for (var i = 0; i < tGOL.bufferData.length; i++) {
-        $scope.piData[i] = tGOL.bufferData[i][tGOL.bufferLabels.length - 1];//update pi chart every cycle since it is quick
-      }
-      if ($scope.countable % $scope.generationPlot == 0) {//only update liner every once in a while
-
-        for (var i = 0; i < tGOL.bufferData.length; i++) {
-
-          for (var j = 0; j < tGOL.bufferData[i].length; j++) {
-            $scope.labels [j] = tGOL.bufferLabels[j];
-            $scope.data [i][j] = tGOL.bufferData[i][j];
-          }
-        }
-        if ($scope.countable / $scope.generationPlot > 3) {//can get slow
-          $scope.generationPlot = $scope.generationPlot + $scope.generationPlot;
-        }
-      }
+      // for (var i = 0; i < tGOL.bufferData.length; i++) {
+      //   $scope.piData[i] = tGOL.bufferData[i][tGOL.bufferLabels.length - 1];//update pi chart every cycle since it is quick
+      // }
+      // if ($scope.countable % $scope.generationPlot == 0) {//only update liner every once in a while
+      //
+      //   for (var i = 0; i < tGOL.bufferData.length; i++) {
+      //
+      //     for (var j = 0; j < tGOL.bufferData[i].length; j++) {
+      //       $scope.labels [j] = tGOL.bufferLabels[j];
+      //       $scope.data [i][j] = tGOL.bufferData[i][j];
+      //     }
+      //   }
+      //   if ($scope.countable / $scope.generationPlot > 3) {//can get slow
+      //     $scope.generationPlot = $scope.generationPlot + $scope.generationPlot;
+      //   }
+      // }
       $scope.countable++;
     }
 
@@ -133,9 +133,13 @@ angular.module('starter')
 
       $scope.canvas = document.getElementById('board');
       $window.innerHeight
-      var square =Math.min($window.innerHeight,  $window.innerWidth)-100;
-      square =square+square%2 +1;
-      tGOL = CellBoardFactory.getParams(square, square, 1, 0)
+      var height = $window.innerHeight - 100;
+      height = height + height % 2 + 1;
+      var width = $window.innerWidth - 100;
+      width = width + width % 2 + 1;
+
+
+      tGOL = CellBoardFactory.getParams(height, width, 1, 0)
       tGOL.niceParam = 0;//random live and no die
       //line chart labels
       tGOL.bufferLabels = [];
@@ -183,9 +187,20 @@ angular.module('starter')
 
     $scope.clocky = 350;
 
-    var tGOL =new Object();
-    $scope.type ="Siny";
+    var tGOL = new Object();
+    $scope.type = "Siny";
     $scope.randy();
+
+    $scope.displays = {
+      makers: [{
+        name: 'Liny',
+        func: $scope.liney()
+      }, {
+        name: 'Liny',
+        func: $scope.liney()
+      }]
+    }
+
 
     var clockIt = function () {
       var start = new Date().getTime();

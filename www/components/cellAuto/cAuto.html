@@ -7,24 +7,35 @@
      border: 1px solid red;
    }*/
 </style>
-<ion-view view-title="Game of Life - {{type}}">
 
+<ion-view view-title="Game of Life - {{type}} ({{countable}})">
+  <ion-content class="padding">
+
+<!--<ion-list>-->
+  <!--<ion-item>-->
+    <!--I love kittens!-->
+    <!--<ion-option-button class="button-positive">Share</ion-option-button>-->
+    <!--<ion-option-button class="button-assertive">Edit</ion-option-button>-->
+  <!--</ion-item>-->
+<!--</ion-list>-->
 <div class="row">
-  <div class="col col-center">
+  <!--<div class="col col-center">-->
+    <div ng-repeat='maker in displays.makers'>
+    <button class="btn btn-sm btn-default" ng-click="maker.func">{{maker.name}}</button>
+    </div>
 
-    <button on-touch="liney()" class="button">sdaf</button>
-    <button class="btn btn-sm btn-default" ng-click="liney()">Liny</button>
-    <button class="btn btn-sm btn-default" ng-click="crossy()">Crossy</button>
-    <button class="btn btn-sm btn-default" ng-click="randy()">Randy</button>
-    <button class="btn btn-sm btn-default" ng-click="randrandy()">RRandy</button>
-    <button class="btn btn-sm btn-default" ng-click="randLiny()">RLiny</button>
-    <button class="btn btn-sm btn-default" ng-click="gunny()">Gunny</button>
-    <button class="btn btn-sm btn-default" ng-click="circys()">Circys</button>
-    <button class="btn btn-sm btn-default" ng-click="circysCrossy()">CCircys</button>
-    <button class="btn btn-sm btn-default" ng-click="siny()">Siny</button>
-    <button class="btn btn-sm btn-default" ng-click="rsiny()">RSiny</button>
+    <!--<button class="btn btn-sm btn-default" ng-click="liney()">Liny</button>-->
+    <!--<button class="btn btn-sm btn-default" ng-click="crossy()">Crossy</button>-->
+    <!--<button class="btn btn-sm btn-default" ng-click="randy()">Randy</button>-->
+    <!--<button class="btn btn-sm btn-default" ng-click="randrandy()">RRandy</button>-->
+    <!--<button class="btn btn-sm btn-default" ng-click="randLiny()">RLiny</button>-->
+    <!--<button class="btn btn-sm btn-default" ng-click="gunny()">Gunny</button>-->
+    <!--<button class="btn btn-sm btn-default" ng-click="circys()">Circys</button>-->
+    <!--<button class="btn btn-sm btn-default" ng-click="circysCrossy()">CCircys</button>-->
+    <!--<button class="btn btn-sm btn-default" ng-click="siny()">Siny</button>-->
+    <!--<button class="btn btn-sm btn-default" ng-click="rsiny()">RSiny</button>-->
 
-  </div>
+  <!--</div>-->
 
 
 </div>
@@ -45,14 +56,14 @@
   </div>
 <!--</div>-->
 
-<div class="row">
+<!--<div class="row">-->
 
-  <h1 class="text-muted">
-    {{ countable }}
-  </h1>
+  <!--<h1 class="text-muted">-->
+    <!--{{ countable }}-->
+  <!--</h1>-->
 
 
-</div>
+<!--</div>-->
 
 <!--<div class="row text-center">-->
   <!--<div class="fat-head">-->
@@ -70,8 +81,8 @@
     <!--</canvas>-->
   <!--</div>-->
 <!--</div>-->
-<p class="text-muted">Generation Time = {{clocky}} ms</p>
-
+<!--<p class="text-muted">Generation Time = {{clocky}} ms</p>-->
+</ion-content>
 </ion-view>
 
 <!--<div class="col-md-3">-->
