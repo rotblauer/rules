@@ -1,21 +1,47 @@
 <ion-view view-title="About">
   <ion-content class="padding">
     <div class="row">
-      <div class="col col-center">
+      <div class="col text-center">
 
-        <h2>CellOMatic!</h2>
+        <h2><strong style="color:red;">Cell</strong><strong style="color:green;">O</strong><strong style="color:blue;">Matic</strong>!
+        </h2>
+
         <p class="text-muted">
-
+          Its a pretty simple Game of Life:
         </p>
         <div class="row">
+          <div class="col text-center">
 
-          <p class="text-muted">
-            Check out other RotBlauer apps at
-            <a
-              href="http://areteh.co" target="_blank">Areteh</a>.
-          </p>
+            <!--<ion-list>-->
+            <p>Any live cell with fewer than two live neighbours <strong style="color:red;">dies</strong>, as if caused
+              by under-population</p>
+            <p>Any live cell with two or three live neighbours <strong style="color:blue;">lives</strong> on to the next
+              generation</p>
+            <p>Any live cell with more than three live neighbours <strong style="color:red;">dies</strong>, as if by
+              over-population</p>
+            <p>Any dead cell with exactly three live neighbours becomes a <strong style="color:green;">live</strong>
+              cell, as if by reproduction
+
+              <!--</ion-list>-->
+          </div>
         </div>
+
+
+        <p class="text-muted">
+          <!-- -Wikipedia-->
+        </p>
       </div>
     </div>
+    <div class="row">
+      <div class="col text-center">
+
+        <p class="text-muted">
+          <strong style="color:blue;">Rot</strong><strong style="color:red;">Blauer</strong>
+          <!--<a-->
+          <!--href="http://areteh.co" target="_blank">Areteh</a>.-->
+        </p>
+      </div>
+    </div>
+
   </ion-content>
 </ion-view>

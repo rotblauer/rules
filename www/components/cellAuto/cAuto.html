@@ -1,26 +1,59 @@
+
 <style>
-  .google-blue {
-    color: #6d9eeb;
+
+  #canvas-container {
+    width: 100%;
+    height:100%;
+    text-align: center;
+    padding:0;
+    overflow:hidden;
   }
 
-  /* div {
-     border: 1px solid red;
-   }*/
+  canvas {
+    display: inline;
+  }
 </style>
+<script id="my-popover.html" type="text/ng-template">
+  <ion-popover-view>
+    <ion-header-bar>
+      More ({{displays.makers.length}})
+    </ion-header-bar>
+    <ion-content>
+      <div ng-repeat='maker in displays.makers'>
+        <ion-radio class="btn btn-sm btn-default" ng-click=maker.getFunc()>{{maker.name}}</ion-radio>
+      </div>
+    </ion-content>
+  </ion-popover-view>
+</script>
 
 <ion-view view-title="Game of Life - {{type}} ({{countable}})">
   <!--<ion-nav-buttons side="left">-->
-    <!--<button class="button button-icon button-clear ion-navicon" ng-click="openMenu()"></button>-->
+  <!--<button class="button button-icon button-clear ion-navicon" ng-click="openMenu()"></button>-->
   <!--</ion-nav-buttons>-->
+  <ion-nav-buttons side="right" ng-show="false">
+    <!--<button class="button button-icon button-clear ion-compose">-->
+    <!--</button>-->
+    <button class="button button-icon button-clear ion-refresh" ng-click="current()"></button>
+
+
+  </ion-nav-buttons>
+
+  <ion-nav-buttons side="left" ng-show="false">
+    <!--<button class="button button-icon button-clear ion-compose">-->
+    <!--</button>-->
+    <!--ion-arrow-down-a-->
+    <button class="button button-icon button-clear ion-plus-round" ng-click="openPopover($event)"></button>
+
+    <!--<button ng-click="openPopover($event)">More</button>-->
+
+  </ion-nav-buttons>
+
   <ion-content class="padding">
-    <p>
-      <button ng-click="openPopover($event)">More Games</button>
-    </p>
+
+
     <div class="row">
       <!--<div class="col col-center">-->
-      <div ng-repeat='maker in displays.makers'>
-        <!--<button class="btn btn-sm btn-default" ng-click=maker.getFunc()>{{maker.name}}</button>-->
-      </div>
+
     </div>
     <div class="col text-center">
       <canvas id="board"></canvas>

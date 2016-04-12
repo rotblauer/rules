@@ -3,16 +3,47 @@
 //Sauce has morphed
 //http://jsfiddle.net/tchatel/H2y5r/
 angular.module('starter')
-  .controller('CAutotCtrl', function ($scope, $timeout, $window,$ionicPopover, CellBoardFactory, TGOLFactory) {
+  .controller('CAutotCtrl', function ($scope, $timeout, $window, $ionicPopover, CellBoardFactory, TGOLFactory) {
 
-    $scope.openMenu = function () {
-      $ionicSideMenuDelegate.toggleLeft();
+    // var template = '<ion-popover-view><ion-header-bar> <h1 class="title">Game of lives</h1> </ion-header-bar> <ion-content> Hello! </ion-content></ion-popover-view>';
+    //
+    // $scope.popover = $ionicPopover.fromTemplate(template, {
+    //   scope: $scope
+    // });
+
+    $ionicPopover.fromTemplateUrl('my-popover.html', {
+      scope: $scope
+    }).then(function(popover) {
+      $scope.popover = popover;
+    });
+    $scope.openPopover = function ($event) {
+      $scope.popover.show($event);
+    };
+    $scope.closePopover = function () {
+      $scope.popover.hide();
+    };
+    //Cleanup the popover when we're done with it!
+    $scope.$on('$destroy', function () {
+      $scope.popover.remove();
+    });
+    // Execute action on hide popover
+    $scope.$on('popover.hidden', function () {
+      // Execute action
+    });
+    // Execute action on remove popover
+    $scope.$on('popover.removed', function () {
+      // Execute action
+    });
+    $scope.current = function () {
+      return $scope.displays.makers[$scope.ID].getFunc();
     }
+
     $scope.displays = {
       makers: [{
         name: 'Liny',
         getFunc: function () {
           $scope.type = "Liny";
+          $scope.ID = 0;
           tGOL = initInit();
           tGOL.board = CellBoardFactory.initLiny(tGOL.height, tGOL.width, true, false);
         }
@@ -20,6 +51,7 @@ angular.module('starter')
         name: 'Crossy',
         getFunc: function () {
           $scope.type = "Crossy";
+          $scope.ID = 1;
           tGOL = initInit();
           tGOL.board = CellBoardFactory.initCrossy(tGOL.height, tGOL.width, true, false);
         }
@@ -27,6 +59,7 @@ angular.module('starter')
         name: 'Randy',
         getFunc: function () {
           $scope.type = "Randy";
+          $scope.ID = 2;
           tGOL = initInit();
           tGOL.board = CellBoardFactory.initRandy(tGOL.height, tGOL.width, .15, true, false);
         }
@@ -34,6 +67,7 @@ angular.module('starter')
         name: 'RandRandy',
         getFunc: function () {
           $scope.type = "RandRandy";
+          $scope.ID = 3;
           tGOL = initInit();
           tGOL.board = CellBoardFactory.initRandy(tGOL.height, tGOL.width, .15, true, false);
           tGOL.niceParam = .0001;
@@ -41,7 +75,10 @@ angular.module('starter')
       }, {
         name: 'RandLiny',
         getFunc: function () {
+
           $scope.type = "RandLiny";
+          $scope.ID = 4;
+
           tGOL = initInit();
           tGOL.board = CellBoardFactory.initLiny(tGOL.height, tGOL.width, true, false);
           tGOL.niceParam = .0001;
@@ -50,6 +87,7 @@ angular.module('starter')
         name: 'Circys',
         getFunc: function () {
           $scope.type = "Circys";
+          $scope.ID = 5;
           tGOL = initInit();
           tGOL.board = CellBoardFactory.initCircys(tGOL.board, tGOL.height, tGOL.width, true, false, Math.min(tGOL.height, tGOL.width, 25), 1, true);
         }
@@ -57,6 +95,7 @@ angular.module('starter')
         name: 'CircysCrossy',
         getFunc: function () {
           $scope.type = "CircysCrossy";
+          $scope.ID = 6;
           tGOL = initInit();
           tGOL.board = CellBoardFactory.initCircysCrossy(tGOL.board, tGOL.height, tGOL.width, true, false, Math.min(tGOL.height, tGOL.width, 25), 1);
 
@@ -65,7 +104,7 @@ angular.module('starter')
         name: 'Gunny',
         getFunc: function () {
           $scope.type = "Gunny";
-
+          $scope.ID = 7;
           tGOL = initInit();
           tGOL.board = CellBoardFactory.initAllBlank(tGOL.height, tGOL.width, false);
 
@@ -91,6 +130,7 @@ angular.module('starter')
         name: 'Siny',
         getFunc: function () {
           $scope.type = "Siny";
+          $scope.ID = 8;
           tGOL = initInit();
           tGOL.board = CellBoardFactory.initSiny(tGOL.board, tGOL.height, tGOL.width, true, false, (1 / 15), true);
         }
@@ -98,6 +138,7 @@ angular.module('starter')
         name: 'Rsiny',
         getFunc: function () {
           $scope.type = "Rsiny";
+          $scope.ID = 9;
           tGOL = initInit();
           tGOL.board = CellBoardFactory.initSiny(tGOL.board, tGOL.height, tGOL.width, true, false, Math.random() * 1000, true);
 
@@ -119,15 +160,17 @@ angular.module('starter')
     }
 
     function initInit() {
-
+      $window.resize;
       $scope.canvas = document.getElementById('board');
-      var height = $window.innerHeight;
+      var pix=3;
+      var height = $window.innerHeight/pix;
       height = height + height % 2 + 1;
-      var width = $window.innerWidth;
+      // height =canvas.height;
+      var width = $window.innerWidth/pix;
       width = width + width % 2 + 1;
 
 
-      tGOL = CellBoardFactory.getParams(height, width, 1, 0);
+      tGOL = CellBoardFactory.getParams(height, width, pix, 0);
       tGOL.niceParam = 0;//random live and no die
       $scope.canvas.width = tGOL.width * (tGOL.size + 2 * tGOL.gap);
       $scope.canvas.height = tGOL.height * (tGOL.size + 2 * tGOL.gap);
@@ -149,7 +192,7 @@ angular.module('starter')
     $scope.clocky = 350;
 
     var tGOL = new Object();
-    $scope.displays.makers[$scope.displays.makers.length-1].getFunc();
+    $scope.displays.makers[$scope.displays.makers.length - 1].getFunc();
 
     var clockIt = function () {
       var start = new Date().getTime();
