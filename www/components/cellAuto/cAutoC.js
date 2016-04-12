@@ -163,11 +163,11 @@ angular.module('starter')
       $window.resize;
       $scope.canvas = document.getElementById('board');
       var pix=3;
-      var height = $window.innerHeight/pix;
-      height = height + height % 2 + 1;
+      var height = ($window.innerHeight-($window.innerHeight*.2))/pix;//how to buffer naver bars?
+      height = height + (height % 2) + 1;
       // height =canvas.height;
       var width = $window.innerWidth/pix;
-      width = width + width % 2 + 1;
+      width = width + (width % 2) + 1;
 
 
       tGOL = CellBoardFactory.getParams(height, width, pix, 0);
