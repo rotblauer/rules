@@ -163,7 +163,7 @@ angular.module('starter')
       $window.resize;
       $scope.canvas = document.getElementById('board');
       var pix=3;
-      var height = ($window.innerHeight-($window.innerHeight*.2))/pix;//how to buffer naver bars?
+      var height = ($window.innerHeight-($window.innerHeight*.2))/pix;//how to buffer naver bars?d
       height = height + (height % 2) + 1;
       // height =canvas.height;
       var width = $window.innerWidth/pix;
