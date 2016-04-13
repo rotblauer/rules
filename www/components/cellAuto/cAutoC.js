@@ -192,7 +192,7 @@ angular.module('starter')
     $scope.clocky = 350;
 
     var tGOL = new Object();
-    $scope.displays.makers[$scope.displays.makers.length - 1].getFunc();
+    $scope.displays.makers[3].getFunc();
 
     var clockIt = function () {
       var start = new Date().getTime();
