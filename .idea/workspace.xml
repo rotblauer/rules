@@ -2,9 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19eb7276-a59b-4592-bd0e-7278403e2f00" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/android/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/android/mipmap-ldpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/android/mipmap-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/android/mipmap-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/android/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/android/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/android/playstore-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/AppIcon.appiconset/Icon-40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/AppIcon.appiconset/Icon-40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/AppIcon.appiconset/Icon-40@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/AppIcon.appiconset/Icon-60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/AppIcon.appiconset/Icon-60@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/AppIcon.appiconset/Icon-76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/AppIcon.appiconset/Icon-76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/AppIcon.appiconset/Icon-83.5@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/AppIcon.appiconset/Icon-Small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/AppIcon.appiconset/Icon-Small@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/AppIcon.appiconset/Icon-Small@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/Icon-60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/Icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/Icon-72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/Icon-Small-50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/Icon-Small-50@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/Icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/Icon@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/iTunesArtwork.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/ios/iTunesArtwork@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/watchkit/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-24@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-27.5@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-29@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-29@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-44@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-86@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-98@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default-1242@3x~iphone6s-landscape_2208x1242.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default-1242@3x~iphone6s-portrait_1242x2208.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default-568h@2x~iphone_640x1136.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default-750@2x~iphone6-landscape_1334x750.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default-750@2x~iphone6-portrait_750x1334.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default-Landscape@2x~ipad_2048x1496.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default-Landscape@2x~ipad_2048x1536.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default-Landscape~ipad_1024x748.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default-Landscape~ipad_1024x768.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default-Portrait@2x~ipad_1536x2008.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default-Portrait@2x~ipad_1536x2048.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default-Portrait~ipad_768x1024.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default@2x~iphone_640x960.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/splash/Default~iphone.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/components/cellAuto/cAutoC.js" afterPath="$PROJECT_DIR$/www/components/cellAuto/cAutoC.js" />
     </list>
     <ignored path="CellAuto.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -184,7 +236,8 @@
     </gulpfiles>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="68" />
+    <option name="x" value="44" />
+    <option name="y" value="219" />
     <option name="width" value="1436" />
     <option name="height" value="763" />
   </component>
@@ -213,6 +266,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -304,9 +358,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CellAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CellAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CellAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CellAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IconsSplash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,7 +473,7 @@
       <workItem from="1460301948794" duration="21066000" />
       <workItem from="1460343633392" duration="3146000" />
       <workItem from="1460416264897" duration="14616000" />
-      <workItem from="1460512488392" duration="11000" />
+      <workItem from="1460512488392" duration="830000" />
     </task>
     <task id="LOCAL-00001" summary="cauto">
       <created>1460315889880</created>
@@ -460,26 +545,40 @@
       <option name="project" value="LOCAL" />
       <updated>1460467760214</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="deleters">
+      <created>1460512566809</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1460512566809</updated>
+    </task>
+    <task id="LOCAL-00012" summary="thingers">
+      <created>1460512606838</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1460512606838</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38839000" />
+    <option name="totallyTimeSpent" value="39658000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="68" width="1436" height="763" extended-state="0" />
-    <editor active="true" />
+    <frame x="44" y="219" width="1436" height="763" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -512,7 +611,8 @@
     <MESSAGE value="image&#10;" />
     <MESSAGE value="thing" />
     <MESSAGE value="deleters" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleters" />
+    <MESSAGE value="thingers" />
+    <option name="LAST_COMMIT_MESSAGE" value="thingers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
