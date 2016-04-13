@@ -1,101 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19eb7276-a59b-4592-bd0e-7278403e2f00" name="Default" comment="morima">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/AppIcon.appiconset/Icon-40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/AppIcon.appiconset/Icon-40@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/AppIcon.appiconset/Icon-40@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/AppIcon.appiconset/Icon-60@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/AppIcon.appiconset/Icon-60@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/AppIcon.appiconset/Icon-76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/AppIcon.appiconset/Icon-76@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/AppIcon.appiconset/Icon-83.5@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/AppIcon.appiconset/Icon-Small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/AppIcon.appiconset/Icon-Small@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/AppIcon.appiconset/Icon-Small@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-1242@3x~iphone6s-landscape_2208x1242.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-1242@3x~iphone6s-portrait_1242x2208.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-568h@2x~iphone_640x1136-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-568h@2x~iphone_640x1136.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-750@2x~iphone6-portrait_750x1334.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-Landscape@2x~ipad_2048x1496.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-Landscape@2x~ipad_2048x1536-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-Landscape@2x~ipad_2048x1536.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-Landscape~ipad_1024x748.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-Landscape~ipad_1024x768-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-Landscape~ipad_1024x768.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-Portrait@2x~ipad_1536x2008.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-Portrait@2x~ipad_1536x2048-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-Portrait@2x~ipad_1536x2048.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-Portrait~ipad_768x1024-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default-Portrait~ipad_768x1024.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default@2x~iphone_640x960-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default@2x~iphone_640x960.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Default~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1024x1024-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/android/mipmap-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/android/mipmap-ldpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/android/mipmap-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/android/mipmap-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/android/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/android/mipmap-xxxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/android/playstore-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/AppIcon.appiconset/Icon-40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/AppIcon.appiconset/Icon-40@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/AppIcon.appiconset/Icon-40@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/AppIcon.appiconset/Icon-60@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/AppIcon.appiconset/Icon-60@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/AppIcon.appiconset/Icon-76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/AppIcon.appiconset/Icon-76@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/AppIcon.appiconset/Icon-83.5@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/AppIcon.appiconset/Icon-Small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/AppIcon.appiconset/Icon-Small@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/AppIcon.appiconset/Icon-Small@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/Icon-60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/Icon-72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/Icon-72@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/Icon-Small-50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/Icon-Small-50@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/Icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/Icon@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/iTunesArtwork.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/iTunesArtwork@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-24@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-27.5@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-29@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-29@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-40@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-44@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-86@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/watchkit/AppIcon.appiconset/Icon-98@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default-1242@3x~iphone6s-landscape_2208x1242.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default-1242@3x~iphone6s-portrait_1242x2208.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default-568h@2x~iphone_640x1136.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default-750@2x~iphone6-landscape_1334x750.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default-750@2x~iphone6-portrait_750x1334.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default-Landscape@2x~ipad_2048x1496.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default-Landscape@2x~ipad_2048x1536.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default-Landscape~ipad_1024x748.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default-Landscape~ipad_1024x768.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default-Portrait@2x~ipad_1536x2008.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default-Portrait@2x~ipad_1536x2048.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default-Portrait~ipad_768x1024.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default@2x~iphone_640x960.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/splash/Default~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/rb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/splash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/AppIcon.appiconset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/LaunchImage.launchimage/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/AppIcon.appiconset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/ios/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resourcesCon/IconsSplash/icon_1500x1500/watchkit/AppIcon.appiconset/Contents.json" />
+    <list default="true" id="19eb7276-a59b-4592-bd0e-7278403e2f00" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-mdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxxhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-40@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-50.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-50@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-60@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-60@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-72@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-76@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-small@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-small@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/icon/icon@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-568h@2x~iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-667h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-736h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape-736h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape@2x~ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape~ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait@2x~ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait~ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default@2x~iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ios/splash/Default~iphone.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="CellAuto.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -126,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cAutoC.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cAutoC.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/components/cellAuto/cAutoC.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -136,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="282">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#strong#0;n#h2#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#strong#1;n#h2#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
@@ -275,7 +226,6 @@
     </gulpfiles>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="23" />
     <option name="y" value="39" />
     <option name="width" value="1436" />
     <option name="height" value="763" />
@@ -305,8 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -397,22 +345,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CellAuto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CellAuto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,7 +430,9 @@
       <workItem from="1460301948794" duration="21066000" />
       <workItem from="1460343633392" duration="3146000" />
       <workItem from="1460416264897" duration="14616000" />
-      <workItem from="1460512488392" duration="1478000" />
+      <workItem from="1460512488392" duration="1509000" />
+      <workItem from="1460518550249" duration="553000" />
+      <workItem from="1460553304863" duration="87000" />
     </task>
     <task id="LOCAL-00001" summary="cauto">
       <created>1460315889880</created>
@@ -587,26 +525,33 @@
       <option name="project" value="LOCAL" />
       <updated>1460513711299</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="morimag">
+      <created>1460517980699</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1460517980699</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40306000" />
+    <option name="totallyTimeSpent" value="40977000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="23" y="39" width="1436" height="763" extended-state="0" />
+    <frame x="0" y="39" width="1436" height="763" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -641,13 +586,66 @@
     <MESSAGE value="deleters" />
     <MESSAGE value="thingers" />
     <MESSAGE value="morima" />
-    <option name="LAST_COMMIT_MESSAGE" value="morima" />
+    <MESSAGE value="morimag" />
+    <option name="LAST_COMMIT_MESSAGE" value="morimag" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/cellAuto/tGOL-factory-serv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#3018#3057#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/cellAuto/cellBoard-factory-serv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3075">
+          <caret line="205" column="34" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="34" />
+          <folding>
+            <element signature="e#7164#7203#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -944,24 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#strong#0;n#h2#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#1;n#h2#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#2;n#h2#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#1;n#p#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/components/cellAuto/cAuto.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -974,6 +954,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/components/cellAuto/cAutoC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1002,11 +990,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/components/cellAuto/cAutoC.js">
+    <entry file="file://$PROJECT_DIR$/www/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="282">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#strong#0;n#h2#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#1;n#h2#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#2;n#h2#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#p#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#1;n#p#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
