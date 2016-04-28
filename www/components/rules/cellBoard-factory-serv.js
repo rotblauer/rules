@@ -2,7 +2,7 @@
  * Created by Kitty on 3/28/16.
  */
 'use strict';
-angular.module('starter')
+angular.module('newScience')
 
   //factory, what is it if not to separate
   .factory('CellBoardFactory', function () {

@@ -4,8 +4,8 @@
 
 
 
-angular.module('aretehApp')
-  .controller('RuleCtrl', function ($scope, $timeout, CellBoardFactory) {
+angular.module('newScience')
+  .controller('RuleCtrl', function ($scope, $timeout,$window, CellBoardFactory) {
 
 
       function computeNext() {
@@ -132,20 +132,30 @@ angular.module('aretehApp')
       };
 
       function initInit() {
-        sGol = CellBoardFactory.getParams(70000, 1400, 1, 0);//wasteful
+
+        $window.resize;
+      $scope.canvas = document.getElementById('board');
+      var pix=1;
+      var height = ($window.innerHeight-($window.innerHeight*0))/pix;//how to buffer naver bars?d
+      height = height + (height % 2) + 1;
+      // height =canvas.height;
+      var width = $window.innerWidth/pix;
+      width = width + (width % 2) + 1;
+      sGol = CellBoardFactory.getParams(height, width, pix, 0);
+
+      $scope.canvas.width = sGol.width * (sGol.size + 2 * sGol.gap);
+      $scope.canvas.height = sGol.height * (sGol.size + 2 * sGol.gap);
+      $scope.context = $scope.canvas.getContext("2d");
+      $scope.context.fillStyle = "white";
+      $scope.context.fillRect(0, 0, $scope.context.width, $scope.context.height);
+      $scope.height = sGol.height;
+      $scope.width = sGol.width;
+      $scope.countable = 0;
+
         sGol.iter = 0;
         sGol.lastDrawn = 0;
 
         sGol.drawAt = 1;
-        $scope.canvas = document.getElementById('boardSa');
-        $scope.canvas.width = sGol.width * (sGol.size + 2 * sGol.gap);
-        $scope.canvas.height = sGol.height * (sGol.size + 2 * sGol.gap);
-
-        $scope.context = $scope.canvas.getContext("2d");
-        $scope.context.fillStyle = "white";
-        $scope.context.fillRect(0, 0, $scope.context.width, $scope.context.height);
-
-
         $scope.height = sGol.height;
         $scope.width = sGol.width;
 
@@ -166,6 +176,7 @@ angular.module('aretehApp')
 
       };
       var sGol = new Object();
+        sGol = initInit();
 
       $scope.rule90();
       $scope.currentRule = sGol.currentRule;
