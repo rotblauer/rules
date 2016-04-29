@@ -1,5 +1,22 @@
         
 <ion-view view-title="{{currentRule.name}}">
+<ion-nav-buttons side="right" ng-show="false">
+    <!--<button class="button button-icon button-clear ion-compose">-->
+    <!--</button>-->
+    <button class="button button-icon button-clear ion-refresh" ng-click="current()"></button>
+
+
+  </ion-nav-buttons>
+  <ion-nav-buttons side="left" ng-show="false">
+    <!--<button class="button button-icon button-clear ion-compose">-->
+    <!--</button>-->
+    <!--ion-arrow-down-a-->
+    <button class="button button-icon button-clear ion-plus-round" ng-click="openPopover($event)"></button>
+
+    <!--<button ng-click="openPopover($event)">More</button>-->
+
+  </ion-nav-buttons>
+
 <ion-content class="padding">
 
 <canvas id="board"></canvas>
