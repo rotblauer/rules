@@ -1,9 +1,23 @@
-        
+    <script id="my-popover.html" type="text/ng-template">
+  <ion-popover-view>
+    <ion-header-bar>
+      More ({{rules.length}})
+    </ion-header-bar>
+    <ion-content>
+      <div ng-repeat='rule in rules'>
+        <ion-radio class="btn btn-sm btn-default" ng-click=setIndex(rule.code)>{{rule.name}}</ion-radio>
+      </div>
+    </ion-content>
+  </ion-popover-view>
+</script>    
+
 <ion-view view-title="{{currentRule.name}}">
 <ion-nav-buttons side="right" ng-show="false">
     <!--<button class="button button-icon button-clear ion-compose">-->
     <!--</button>-->
-    <button class="button button-icon button-clear ion-refresh" ng-click="current()"></button>
+    <!-- <button class="button button-icon button-clear ion-play" ng-click="toggleIter()"></button> -->
+    <button class="button button-icon icon ion-play" ng-click="toggleIter()" ng-if="!isIterate()" ></button>
+	<button class="button button-icon icon ion-pause" ng-click="toggleIter()" ng-if="isIterate()"></button>
 
 
   </ion-nav-buttons>
