@@ -117,7 +117,7 @@
                 b[7 - j] = (i >> j) & 1;
               }
               bitshifts.push(b);
-              console.log(b + "\t" + i)
+              // console.log(b + "\t" + i)
             }
             return bitshifts;
           }
@@ -218,12 +218,7 @@
                 $timeout(clockIt, $scope.clocky);
 
               }
-
-
-
             }
-
           };
-
           var mon = $timeout(clockIt, $scope.clocky);
         });
