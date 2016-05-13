@@ -18,6 +18,8 @@
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
   <platform name="ios">
+    <preference name="Orientation" value="landscape" />
+
   </platform>
   <icon src="resources/ios/icon/icon-small@3x.png"/>
 </widget>

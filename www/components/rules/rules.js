@@ -145,12 +145,12 @@ angular.module('newScience')
             $scope.canvas = document.getElementById('board');
             var pix = 1;
             var height = ($window.innerHeight - ($window.innerHeight * 0)) / pix; //how to buffer naver bars?d
-            height = 1.5 * height + (height % 2) + 1;
+            // height = 1.5 * height + (height % 2) + 1;
             // height =canvas.height;
             var width = 2 * $window.innerWidth / pix;
             height = width;
             // width = width + (width % 2) + 1;
-            // height =Math.min(height,width)/2;
+            height =Math.min(height,width)/2;
             sGol = CellBoardFactory.getParams(height, width, pix, 0);
 
             $scope.canvas.width = sGol.width * (sGol.size + 2 * sGol.gap);

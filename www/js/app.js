@@ -26,10 +26,10 @@ angular.module('newScience', ['ionic'])
             abstract: true,
             templateUrl: 'templates/tabs.html',
         })
-        .state('tab.gol', {
-            url: '/gol',
+        .state('tab.rules', {
+            url: '/rules',
             views: {
-                'tab-gol': {
+                'tab-rules': {
                     templateUrl: 'components/rules/rules.html',
                     controller: 'RuleCtrl'
                 }
@@ -46,6 +46,6 @@ angular.module('newScience', ['ionic'])
         });
 
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/tab/gol');
+    $urlRouterProvider.otherwise('/tab/rules');
 
 });
