@@ -22,24 +22,18 @@ canvas {
 </script>
 <ion-view view-title="{{currentRule.name}}">
     <ion-nav-buttons side="right" ng-show="false">
-        <!--<button class="button button-icon button-clear ion-compose">-->
-        <!--</button>-->
-        <!-- <button class="button button-icon button-clear ion-play" ng-click="toggleIter()"></button> -->
         <button class="button button-icon icon ion-play" ng-click="toggleIter()" ng-if="!isIterate()"></button>
         <button class="button button-icon icon ion-pause" ng-click="toggleIter()" ng-if="isIterate()"></button>
-        <!-- rule 118 for logo -->
     </ion-nav-buttons>
     <ion-nav-buttons side="left" ng-show="false">
-        <!--<button class="button button-icon button-clear ion-compose">-->
-        <!--</button>-->
-        <!--ion-arrow-down-a-->
         <button class="button button-icon button-clear ion-plus-round" ng-click="openPopover($event)"></button>
-        <!--<button ng-click="openPopover($event)">More</button>-->
     </ion-nav-buttons>
-    <ion-content class="padding">
+    <ion-content class="padding" overflow-scroll=”true”>
         <div class="row">
             <div class="col text-center">
-                <canvas id="board"></canvas>
+                <ion-scroll zooming="true" direction="xy">
+                    <canvas id="board"></canvas>
+                </ion-scroll>
             </div>
         </div>
     </ion-content>
