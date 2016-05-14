@@ -8,14 +8,14 @@ canvas {
     /*background-color: red;*/
 }
 </style>
-<script id="my-popover.html" type="text/ng-template">
+<script id="popall.html" type="text/ng-template">
     <ion-popover-view>
         <ion-header-bar>
-            More ({{rules.length}})
+            More ({{currentRules.length}})
         </ion-header-bar>
         <ion-content>
-            <div ng-repeat='rule in rules'>
-                <ion-radio class="btn btn-sm btn-default" ng-click=setIndex(rule.code)>{{rule.name}}</ion-radio>
+            <div ng-repeat='rule in currentRules'>
+                <ion-radio class="btn btn-sm btn-default" ng-click=setIndex(rule.code)>{{rule.name}} </ion-radio>
             </div>
         </ion-content>
     </ion-popover-view>
@@ -26,7 +26,10 @@ canvas {
         <button class="button button-icon icon ion-pause" ng-click="toggleIter()" ng-if="isIterate()"></button>
     </ion-nav-buttons>
     <ion-nav-buttons side="left" ng-show="false">
-        <button class="button button-icon button-clear ion-plus-round" ng-click="openPopover($event)"></button>
+        <button class="button button-icon button-clear ion-plus-round" id="hi" ng-click="setAllRules();openPopover($event)"></button>
+        <!--     </ion-nav-buttons>
+    <ion-nav-buttons side="left" ng-show="false"> -->
+        <button class="button button-icon button-clear ion-star" ng-click="setFavRules(); openPopover($event)"></button>
     </ion-nav-buttons>
     <ion-content class="padding" overflow-scroll=”true”>
         <div class="row">

@@ -6,11 +6,13 @@
 
 angular.module('newScience')
     .controller('RuleCtrl', function($scope, $timeout, $window, $ionicPopover, CellBoardFactory) {
-        $ionicPopover.fromTemplateUrl('my-popover.html', {
+
+        $ionicPopover.fromTemplateUrl('popall.html', {
             scope: $scope
         }).then(function(popover) {
             $scope.popover = popover;
         });
+
         $scope.openPopover = function($event) {
             $scope.popover.show($event);
         };
@@ -29,6 +31,7 @@ angular.module('newScience')
         $scope.$on('popover.removed', function() {
             // Execute action
         });
+
 
         function computeNext() {
             var next = [];
@@ -129,19 +132,26 @@ angular.module('newScience')
                 $scope.iterate = true;
                 $timeout(clockIt, $scope.clocky);
             }
-        }
+        };
         $scope.isIterate = function() {
-            return $scope.iterate
-        }
+            return $scope.iterate;
+        };
 
         $scope.setIndex = function(ruleIndex) {
             $scope.ruleIndex = ruleIndex;
             $timeout(clockIt, $scope.clocky);
+        };
+        $scope.setFavRules =function(){
+            $scope.currentRules = $scope.favRules;
+        };
+        $scope.setAllRules =function(){
+            $scope.currentRules = $scope.rules;
         }
+
 
         function initInit() {
 
-            $window.resize;
+            // $window.resize();
             $scope.canvas = document.getElementById('board');
             var pix = 1;
             var height = ($window.innerHeight - ($window.innerHeight * 0)) / pix; //how to buffer naver bars?d
@@ -170,6 +180,7 @@ angular.module('newScience')
 
         }
         $scope.rules = [];
+        $scope.favRules =[];
 
         var bitshit = getRules();
 
@@ -179,7 +190,11 @@ angular.module('newScience')
             rule.name = "Rule " + i;
             rule.code = i;
             $scope.rules.push(rule);
+            if(i==30||i==110){
+               $scope.favRules.push(rule); 
+            }
         }
+        $scope.currentRules = $scope.rules;
 
         $scope.ruleIndex = 30;
         $scope.iterate = false;
