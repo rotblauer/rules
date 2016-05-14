@@ -47,13 +47,13 @@ angular.module('newScience')
 
         function ruleNext(ruleset, a, b, c) {
             if (a == 1 && b == 1 && c == 1) return ruleset[0];
-            else if (a == 1 && b == 1 && c == 0) return ruleset[1];
-            else if (a == 1 && b == 0 && c == 1) return ruleset[2];
-            else if (a == 1 && b == 0 && c == 0) return ruleset[3];
-            else if (a == 0 && b == 1 && c == 1) return ruleset[4];
-            else if (a == 0 && b == 1 && c == 0) return ruleset[5];
-            else if (a == 0 && b == 0 && c == 1) return ruleset[6];
-            else if (a == 0 && b == 0 && c == 0) return ruleset[7];
+            else if (a == 1 && b == 1 && c === 0) return ruleset[1];
+            else if (a == 1 && b === 0 && c == 1) return ruleset[2];
+            else if (a == 1 && b === 0 && c === 0) return ruleset[3];
+            else if (a === 0 && b == 1 && c == 1) return ruleset[4];
+            else if (a === 0 && b == 1 && c === 0) return ruleset[5];
+            else if (a === 0 && b === 0 && c == 1) return ruleset[6];
+            else if (a === 0 && b === 0 && c === 0) return ruleset[7];
             return 0;
         }
 
@@ -88,7 +88,7 @@ angular.module('newScience')
 
         function arraysEqual(a, b) {
             if (a === b) return true;
-            if (a == null || b == null) return false;
+            if (a === null || b === null) return false;
             if (a.length != b.length) return false;
             for (var i = 0; i < a.length; ++i) {
                 if (a[i] !== b[i]) return false;
@@ -106,7 +106,7 @@ angular.module('newScience')
             }
 
             computeNext();
-            if (sGol.iter < 20 || sGol.iter % sGol.drawAt == 0) {
+            if (sGol.iter < 20 || sGol.iter % sGol.drawAt === 0) {
                 drawOnCanvas();
             }
             sGol.iter++;
@@ -143,10 +143,12 @@ angular.module('newScience')
         };
         $scope.setFavRules =function(){
             $scope.currentRules = $scope.favRules;
+            $scope.ruleHeader ="Some Favorites";
         };
         $scope.setAllRules =function(){
             $scope.currentRules = $scope.rules;
-        }
+            $scope.ruleHeader ="More";
+        };
 
 
         function initInit() {
@@ -190,12 +192,12 @@ angular.module('newScience')
             rule.name = "Rule " + i;
             rule.code = i;
             $scope.rules.push(rule);
-            if(i==30||i==110){
+            if(i==30||i==45||i==90||i==73||i==105||i==110||i==126||i==149){
                $scope.favRules.push(rule); 
             }
         }
         $scope.currentRules = $scope.rules;
-
+        $scope.ruleHeader ="More";
         $scope.ruleIndex = 30;
         $scope.iterate = false;
         var sGol = new Object();
