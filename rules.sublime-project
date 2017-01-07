@@ -2,13 +2,13 @@
 	"folders":
 	[
 		{
-			"path": "."
-		},
-		{
 			"path": "/Users/Kitty/workspace.other/areteh"
 		},
 		{
-			"path": "/Users/Kitty/workspace.other/CellAuto"
+			"path": "/Users/Kitty/git/goTime"
+		},
+		{
+			"path": "/Volumes/Beta/data/aric_sra/SRAPipeline"
 		}
 	]
 }

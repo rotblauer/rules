@@ -3,6 +3,26 @@
 	{
 		"selected_items":
 		[
+			[
+				"mi",
+				"mitoOut"
+			],
+			[
+				"read",
+				"readAsText(file|blob)	FileReader"
+			],
+			[
+				"open",
+				"open()	Document"
+			],
+			[
+				"op",
+				"open	Event"
+			],
+			[
+				"l",
+				"length	String"
+			]
 		]
 	},
 	"buffers":
@@ -15,10 +35,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "inst",
+		"height": 287.0,
+		"last_filter": "instal",
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -45,10 +77,79 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Kitty/workspace.other/rules"
 	],
 	"file_history":
 	[
+		"/Volumes/Beta/data/aric_sra/SRAPipeline/collectify.sh",
+		"/Volumes/Beta/data/aric_sra/SRAPipeline/compileFail.sh",
+		"/Users/Kitty/workspace.other/sraHelper/_config.yml",
+		"/Users/Kitty/git/phantom-decoder/decoder.py",
+		"/Users/Kitty/workspace.other/sraHelper/index.md",
+		"/Users/Kitty/git/phantom-decoder/README.md",
+		"/Users/Kitty/git/phantom-decoder/txt2csv.py",
+		"/Users/Kitty/git/phantom-decoder/conv1.sh",
+		"/Users/Kitty/workspace.other/sraHelper/_includes/themes/bootstrap-3/default.html",
+		"/Users/Kitty/workspace.other/sraHelper/_includes/themes/bootstrap-3/post.html",
+		"/Users/Kitty/workspace.other/sraHelper/archive.html",
+		"/Users/Kitty/workspace.other/sraHelper/changelog.md",
+		"/Users/Kitty/workspace.other/chat/controllers/chat.go",
+		"/Users/Kitty/workspace.other/MitoDocs/MitoPaper/references.bib",
+		"/Users/Kitty/Downloads/science-2.bib",
+		"/Users/Kitty/Downloads/science.bib",
+		"/Users/Kitty/workspace.other/chat/chatty/chat.go",
+		"/Users/Kitty/workspace.other/MitoDocs/referencesPD.bib",
+		"/Users/Kitty/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/Users/Kitty/workspace.other/chat/chat.go",
+		"/Users/Kitty/workspace.other/chat/index.html",
+		"/Users/Kitty/git/web/src/app/home/home.template.html",
+		"/Users/Kitty/git/web/src/app/app.component.html",
+		"/Users/Kitty/git/web/src/app/app.component.ts",
+		"/Users/Kitty/git/web/src/app/bit/bit.component.ts",
+		"/Users/Kitty/Downloads/affyGw6/processAffy.bat",
+		"/Users/Kitty/git/web/src/app/bit/bit.template.html",
+		"/Users/Kitty/git/web/src/app/bit/index.ts",
+		"/Users/Kitty/git/web/src/app/bit/bit.style.css",
+		"/Users/Kitty/git/web/dist/server/index.js",
+		"/Users/Kitty/git/web/src/app/home/index.ts",
+		"/Users/Kitty/git/web/src/app/bit.component.ts",
+		"/Users/Kitty/git/rbweb/client/components/app.component.js",
+		"/Users/Kitty/git/rbweb/server/config.ts",
+		"/Users/Kitty/git/rbweb/server/config.js",
+		"/Users/Kitty/git/rbweb/client/components/app.component.ts",
+		"/Users/Kitty/git/rbweb/public/index.html",
+		"/Users/Kitty/git/rbweb/client/components/home/home.component.ts",
+		"/Users/Kitty/git/rbweb/client/components/home/a.html",
+		"/Users/Kitty/git/rbweb/client/components/home/tt.htlm",
+		"/Users/Kitty/git/goTime/test.go",
+		"/Users/Kitty/Library/Application Support/Sublime Text 3/Packages/User/GoSublime.sublime-settings",
+		"/Users/Kitty/workspace.other/areteh/app/components/tweeter/tweeter.html",
+		"/Users/Kitty/workspace.other/areteh/app/partials/nav.html",
+		"/Users/Kitty/workspace.other/areteh/app/views/cAuto.html",
+		"/Users/Kitty/workspace.other/areteh/app/components/sAuto/sAuto.html",
+		"/Users/Kitty/git/GenvisisWebsite/web/vanilla/index.php",
+		"/Users/Kitty/workspace.other/areteh/app/components/tweeter/tweeter.js",
+		"/Users/Kitty/Downloads/Genvisis_affy_pipeline.properties",
+		"/Users/Kitty/workspace.other/rules/www/components/rules/rules.js",
+		"/Users/Kitty/workspace.other/rules/www/components/rules/rules.html",
+		"/Users/Kitty/workspace.other/rules/www/templates/about.html",
+		"/Users/Kitty/workspace.other/CellAuto/www/templates/about.html",
+		"/Users/Kitty/workspace.other/rules/ionic.project",
+		"/Users/Kitty/workspace.other/areteh/app/components/sAuto/sAuto.js",
+		"/Users/Kitty/workspace.other/rules/config.xml",
+		"/Users/Kitty/workspace.other/rules/www/components/rules/cellBoard-factory-serv.js",
+		"/Users/Kitty/workspace.other/rules/www/index.html",
+		"/Users/Kitty/workspace.other/rules/www/templates/tabs.html",
+		"/Users/Kitty/workspace.other/rules/www/js/app.js",
+		"/Users/Kitty/workspace.other/CellAuto/www/components/cellAuto/cAuto.html",
+		"/Users/Kitty/workspace.other/rules/package.json",
+		"/Users/Kitty/workspace.other/CellAuto/www/components/cellAuto/tGOL-factory-serv.js",
+		"/Users/Kitty/workspace.other/CellAuto/www/components/cellAuto/cAutoC.js",
+		"/Users/Kitty/workspace.other/areteh/app/index.html",
+		"/Users/Kitty/workspace.other/rules/www/js/controllers.js",
+		"/Users/Kitty/workspace.other/rules/www/components/cellAuto/tGOL-factory-serv.js",
+		"/Users/Kitty/workspace.other/rules/www/components/cellAuto/cAutoC.js",
+		"/Users/Kitty/workspace.other/rules/www/components/sAuto/sAuto.js",
+		"/Users/Kitty/workspace.other/rules/www/components/sAuto/sAuto.html",
 		"/Users/Kitty/workspace.other/Rules/www/js/app.js",
 		"/Users/Kitty/git/zamboniR/readme.md",
 		"/Users/Kitty/Downloads/maniquí.php",
@@ -56,11 +157,11 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 		]
@@ -70,13 +171,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ControllerFrame",
+			"gmaps",
+			"plink",
+			"ghfmd",
+			"class-\"",
+			"col-md-10",
+			"td",
+			"col-10",
+			"10",
+			"th",
+			"maker",
+			"base2",
+			"tGOL",
 			"kkkk",
 			"dfaf\n\naf\n"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 		],
@@ -100,7 +214,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -125,15 +239,31 @@
 		]
 	},
 	"menu_visible": true,
+	"output.GoSublime-main-output":
+	{
+		"height": 100.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
 	},
 	"pinned_build_system": "",
 	"project": "rules.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -142,26 +272,30 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"web/src/app/app.component.html"
+			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 737.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -171,7 +305,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 306.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
