@@ -117,7 +117,9 @@ angular.module('newScience')
             for (var i = 0; i < 256; i++) { //8 bit max
                 var b = [];
                 for (var j = 0; j < 8; j++) {
-                    b[7 - j] = (i >> j) & 1;
+                    b[7 - j] = (i >> j) & 1;   // what does this do? ? (something about 01011101)...?
+                  // http://www.c-point.com/javascript_tutorial/jsoprrshift.htm
+                  // http://stackoverflow.com/questions/7310109/whats-the-difference-between-and-in-javascript
                 }
                 bitshifts.push(b);
                 // console.log(b + "\t" + i)
